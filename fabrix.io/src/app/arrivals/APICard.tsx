@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Card, CardContent, CardFooter, CardTitle } from '@/components/UI/card';
-import StarRating from '../../components/CommonElement/StarRating'; // Make sure you have this component or replace it
+import StarRating from '../../components/CommonElement/StarRating'; 
 
 type APICardProps = {
   id: number;

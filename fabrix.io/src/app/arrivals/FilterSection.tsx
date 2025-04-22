@@ -40,7 +40,7 @@ const FilterSection = () => {
                 </div>
 
                 <div className="relative h-10">
-                    {/* Gray track */}
+                    {/* Gray Line */}
                     <div className="absolute top-1/2 left-0 right-0 h-2 bg-gray-200 rounded-full -translate-y-1/2" />
 
                     {/* Black active range */}
@@ -52,12 +52,10 @@ const FilterSection = () => {
                     {/* Right black circle */}
                     <div className="absolute top-1/2 right-[20%] w-5 h-5 bg-primary rounded-full translate-x-1/2 -translate-y-1/2" />
 
-                    {/* $50 label */}
                     <div className="absolute top-7 left-[20%] text-base text-primary -translate-x-1/2">
                     $50
                     </div>
 
-                    {/* $200 label */}
                     <div className="absolute top-7 right-[20%] text-base text-primary translate-x-1/2">
                     $200
                     </div>
