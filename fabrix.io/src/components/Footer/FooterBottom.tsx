@@ -9,7 +9,7 @@ import gpayCard from "../../../public/assets/logos/Badge (4).png"
 const FooterBottom = () => {
   return (
     <div className='mx-5 lg:mx-24 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5'>
-      <p className='text-textGray'>
+      <p className='text-textGray dark:text-white '>
         Fabrix.io © 2000-2025, All Rights Reserved
       </p>
       <div className='flex items-center gap-4'>

@@ -11,11 +11,11 @@ const HappyCustomerCard: React.FC<HappyCustomerDataProps> = ({ title, rating, de
       <CardContent className="flex flex-col gap-2">
         <StarRating rating={rating} />
         <CardTitle className="flex gap-2 items-center">
-          <p className="text-primary text-xl font-bold">{title}</p>
+          <p className="text-primary dark:text-white  text-xl font-bold">{title}</p>
           <Image src={greenTick} alt="Verified Customer" width={20} height={20} />
         </CardTitle>
         <CardDescription>
-          <p className="text-textGray font-medium leading-6">{desc}</p>
+          <p className="text-textGray dark:text-white  font-medium leading-6">{desc}</p>
         </CardDescription>
       </CardContent>
     </Card>

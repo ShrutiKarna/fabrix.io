@@ -92,8 +92,9 @@
 import React, { useEffect, useState } from 'react';
 import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger} from "@/components/UI/dropdown-menu";
 import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious} from "@/components/UI/pagination";
-import Image from "next/image";
-import dropDownArrow from "../../../public/assets/images/dropdownIcon.svg";
+// import Image from "next/image";
+// import dropDownArrow from "../../../public/assets/images/dropdownIcon.svg";
+import { ChevronDown } from 'lucide-react';
 import { Button } from "@/components/UI/button";
 import APICard from "./APICard";
 
@@ -131,17 +132,18 @@ const CardContainer = () => {
       {/* Header */}
       <div className='flex justify-between my-2'>
         <p className='font-bold text-2xl'>Products</p>
-        <p className='text-textGray hidden lg:block'>
+        <p className='text-textGray  dark:text-white hidden lg:block'>
           Showing {indexOfFirstItem + 1}-{Math.min(indexOfLastItem, products.length)} of {products.length} Products
           <span className='ml-2'>
             Sort by:
             <span className='inline-block ml-1 '>
               <DropdownMenu>
-                <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-black">
+                <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-black  dark:text-white">
                   Most Popular
-                  <Image src={dropDownArrow} alt="dropDownArrow" height={20} width={20} />
+                  {/* <Image src={dropDownArrow} alt="dropDownArrow" height={20} width={20} /> */}
+                  <ChevronDown className='height={20} width=[20]'/>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent>
+                <DropdownMenuContent className='dark:bg-black'>
                   <DropdownMenuItem>Latest</DropdownMenuItem>
                   <DropdownMenuItem>Old</DropdownMenuItem>
                 </DropdownMenuContent>

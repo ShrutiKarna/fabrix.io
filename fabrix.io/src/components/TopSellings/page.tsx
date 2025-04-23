@@ -41,7 +41,7 @@ const TopSellings = () => {
 
   return (
     <div className="mx-4 sm:mx-10 lg:mx-24 my-16 flex flex-col justify-center items-center">
-      <h1 className="text-5xl text-primary font-black mb-6 text-center">
+      <h1 className="text-5xl text-primary dark:text-white  font-black mb-6 text-center">
         Top Sellings
       </h1>
 
@@ -49,10 +49,10 @@ const TopSellings = () => {
       <ProductList products={products} />
 
       {/* View All Button */}
-      <Link href="/arrivals" className="mt-5 w-full sm:w-auto flex justify-center">
+      <Link href="/arrivals" className="mt-7 w-full sm:w-auto flex justify-center">
         <Button
           variant={'outline'}
-          className="w-full sm:w-[190px] h-[40px] text-textGray rounded-full"
+          className="w-full sm:w-[190px] h-[40px] text-textGray dark:text-white  rounded-full"
         >
           View All
         </Button>

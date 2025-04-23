@@ -27,18 +27,18 @@ const ProductCard: React.FC<NewArrivalsDataProps> = ({
         </div>
       </CardContent>
       <CardFooter className="flex flex-col items-start ">
-        <CardTitle className="] text-xl font-black text-primary mb-2">
+        <CardTitle className="] text-xl font-black text-primary dark:text-white  mb-2">
           <Link href={`/product/${id}`}>{name}</Link>
         </CardTitle>
         <StarRating rating={rating} />
         <div className="flex items-center gap-2">
-          <p className="text-lg font-bold text-primary">${price}</p>
+          <p className="text-lg font-bold text-primary dark:text-white ">${price}</p>
           {originalPrice && (
             <>
-              <p className="text-base font-semibold text-textGray line-through">
+              <p className="text-base font-semibold text-textGray dark:text-white  line-through">
                 ${originalPrice}
               </p>
-              <span className="text-sm text-textGray bg-red-400 rounded-full px-4 py-1">
+              <span className="text-sm text-textGray dark:text-white  bg-red-400 rounded-full px-4 py-1">
                 {discount}
               </span>
             </>

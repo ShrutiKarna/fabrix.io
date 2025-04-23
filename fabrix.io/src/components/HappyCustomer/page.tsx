@@ -59,7 +59,7 @@ const HappyCustomerSection = () => {
   return (
     <div className="mx-auto my-16 w-full">
       <div className="px-4 md:px-24 flex flex-col md:flex-row justify-between items-center">
-        <h1 className="text-3xl md:text-5xl text-primary font-black text-center md:text-left">
+        <h1 className="text-3xl md:text-5xl text-primary dark:text-white  font-black text-center md:text-left">
           OUR HAPPY CUSTOMERS
         </h1>
         <div className="flex gap-4 mt-4 md:mt-0">
