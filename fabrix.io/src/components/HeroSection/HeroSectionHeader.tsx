@@ -11,7 +11,7 @@ const HeroSectionHeader = () => {
     <div className='flex flex-col lg:flex-row lg:mx-24 overflow-hidden'>
        
       {/* left div */}
-      <div className='w-[750px] my-auto flex flex-col gap-8 items-center lg:items-start text-center lg:text-left '>
+      <div className='max-w-[750px] my-auto flex flex-col gap-8 items-center lg:items-start text-center lg:text-left '>
         <h1 className='text-5xl text-primary font-black max-w-[600px]'>
           FIND CLOTHES THAT MATCHES YOUR STYLE...
         </h1>
