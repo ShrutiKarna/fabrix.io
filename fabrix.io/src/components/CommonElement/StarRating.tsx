@@ -28,8 +28,8 @@ const StarRating: React.FC<StarRatingProps> = ({ rating }) => {
         />
       )}
       {/* Rating Text */}
-      <p className="text-sm text-primary">
-        {rating}/<span className="text-textGray">5</span>
+      <p className="text-sm text-primary dark:text-white">
+        {rating}/<span className="text-textGray dark:text-white">5</span>
       </p>
     </div>
   );

@@ -328,3 +328,13 @@ export const footerData = [
     ],
   },
 ];
+
+export const dummyReviews = [
+  { username: "Alice", rating: 5, comment: "Absolutely love this!" },
+  { username: "Bob", rating: 4, comment: "Pretty good for the price." },
+  { username: "Charlie", rating: 3, comment: "It’s okay, not amazing." },
+  { username: "Daisy", rating: 5, comment: "Perfect quality and fast delivery!" },
+  { username: "Eve", rating: 4, comment: "Very nice product overall." },
+  { username: "Frank", rating: 5, comment: "Highly recommended!" }
+];
+
